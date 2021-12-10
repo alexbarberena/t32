@@ -97,7 +97,7 @@ function keyPressed(){
 }
 
 async function getBackgroundImg(){
-     var response = await fetch( "http://worldtimeapi.org/api/timezone/America/Mexico_City");
+     var response = await fetch( "https://worldtimeapi.org/api/timezone/America/Mexico_City");
      var responseJSON= await response.json();
      
      var datetime = responseJSON.datetime;
